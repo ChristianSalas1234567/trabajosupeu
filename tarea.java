@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ejercicio4_2 {
+public class tarea {
     static Scanner teclado=new Scanner(System.in);
     public static void ejer1() {
          
@@ -222,6 +222,28 @@ public class Ejercicio4_2 {
 
     }
 
+    public static void ejer14() {
+      //declarar variables
+      int aprobados, reprobados, f, cantidad, nota;
+      aprobados=0;
+      reprobados=0;
+      cantidad=0;
+      System.out.println("ingrese la cantidad de estudiantes : ");
+      cantidad=teclado.nextInt();
+      for(f=1;f<=cantidad;f++){
+        System.out.println("ingrese la nota : ");
+        nota=teclado.nextInt();
+        if (nota>=13){
+          aprobados = aprobados+1;
+        }else {
+          reprobados=reprobados+1;
+        }
+      }
+      System.out.println("cantidad de aprobados : "+aprobados);
+      System.out.println("cantidad de reprobados : "+reprobados);
+
+    }
+
     public static void ejer16() {
         //Declarar variables
         int num1=0;
@@ -321,8 +343,9 @@ public class Ejercicio4_2 {
         //ejer8();
         //ejer9();
         //ejer12();
+        //ejer14();
         //ejer16();
         //ejer17();
-        //ejer20();    
+           
     }
 }
