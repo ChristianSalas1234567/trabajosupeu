@@ -76,29 +76,26 @@ public class tarea {
 
 
     public static void ejer3() {
-        //declarar variables
-        Scanner in=new Scanner(System.in);
-        double N=0;
-        System.out.println("");
-        System.out.println("***************************************************************************************");
-        System.out.println("***Hola en este programa realizaremos la determinacion de la cantidad que introdujas***");
-        System.out.println("***************************************************************************************");
-        System.out.println("");
-        //datos de entrada
-        System.out.println("");
-        System.out.println("ingrese una cantidad cualquiera: ");
-        N=in.nextDouble();
-        //proceso y datos de salida
-        System.out.println("");
-        if(N>0){
-            System.out.println("el numero "+N+" es mayor a cero **positivo**");
-        }else if(N==0){
-            System.out.println("el numero "+N+" es igual a cero **nulo**");
-        }else if(N<0){
-            System.out.println("el numero "+N+" es menor a cero **negativo**");
-        }else{
-            System.out.println("ERROR este dato no existe");
+      int cantidad1, cantidad2, cantidad3, n, f, valor;
+      cantidad1=0;
+      cantidad2=0;
+      cantidad3=0;
+      System.out.println("cantidad de valores que inresaras : ");
+      n=teclado.nextInt();
+      for(f=1;f<=n;f++) {
+        System.out.println("ingrese un valor : ");
+        valor=teclado.nextInt();
+        if(valor>0){
+          cantidad1=cantidad1+1;
+        }else if(valor==0){
+          cantidad2=cantidad2+1;
+        }else {
+          cantidad3=cantidad3+1;
         }
+      }
+      System.out.println("la cantidad de numeros mayores a 0 son : "+cantidad1);
+      System.out.println("la cantidad de numeros iguales a 0 son : "+cantidad2);
+      System.out.println("la cantidad de numeros menores a 0 son : "+cantidad3);
     }
 
     public static void ejer5() {
@@ -338,7 +335,7 @@ public class tarea {
     public static void main(String args[]) {
         //ejer1();
         //ejer2();
-        //ejer3();
+        ejer3();
         //ejer5();
         //ejer8();
         //ejer9();
