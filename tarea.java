@@ -335,7 +335,7 @@ public class tarea {
     public static void main(String args[]) {
         //ejer1();
         //ejer2();
-        ejer3();
+        //ejer3();
         //ejer5();
         //ejer8();
         //ejer9();
