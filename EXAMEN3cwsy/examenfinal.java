@@ -1,5 +1,5 @@
 public class examenfinal {
-    public void transformada1(int dimension, int valorElem) {
+    public void transformada1CWSY(int dimension, int valorElem) {
         String[][] matriz=new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c < matriz[0].length; c++) {     
@@ -23,7 +23,7 @@ public class examenfinal {
     }  
 
 
-    public void transformada2(int dimension, int valorElem) {
+    public void transformada2CWSY(int dimension, int valorElem) {
         String[][] matriz=new String[dimension][dimension];
         for (int f = 0; f < matriz.length; f++) {
             for (int c = 0; c < matriz[0].length; c++) {     
@@ -50,7 +50,7 @@ public class examenfinal {
             System.out.println("");
         }
     }  
-    public void transformada05(int dimen, int valInit) {
+    public void transformada05CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j <= i; j++) {
@@ -61,7 +61,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada16(int dimen, int valInit) {
+    public void transformada16CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j <= i; j++) {
@@ -72,7 +72,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada14(int dimen, int valInit) {
+    public void transformada14CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j <= i; j++) {
@@ -83,7 +83,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada06(int dimen, int valInit) {
+    public void transformada06CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j <= i; j++) {
@@ -94,7 +94,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada18(int dimen, int valInit) {
+    public void transformada18CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = 0; j < matriz.length; j++) {
             for (int i = 0; i <= j; i++) {
@@ -105,7 +105,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada07(int dimen, int valInit) {
+    public void transformada07CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = 0; j < matriz[0].length; j++) {
             for (int i = 0; i <= (dimen-1)-j; i++) {
@@ -117,7 +117,7 @@ public class examenfinal {
     }
 
 
-    public void transformada17(int dimen, int valInit) {
+    public void transformada17CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz[0].length; i++) {
             for (int j = 0; j <= (dimen-1)-i; j++) {
@@ -129,7 +129,7 @@ public class examenfinal {
     }
 
 
-    public void transformada12(int dimen, int valInit) {
+    public void transformada12CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int i = 0; i < matriz[0].length; i++) {
             for (int j = 0; j <= (dimen-1)-i; j++) {
@@ -143,7 +143,7 @@ public class examenfinal {
 
 
 
-    public void transformada13(int dimen, int valInit) {
+    public void transformada13CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = 0; j < matriz[0].length; j++) {
             for (int i = 0; i <= (dimen-1)-j; i++) {
@@ -155,7 +155,7 @@ public class examenfinal {
     }
 
 
-    public void transformada21(int dimen, int valInit) {
+    public void transformada21CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = 0; j < matriz[0].length; j++) {
             if(j%2==0){
@@ -173,7 +173,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada24(int dimen, int valInit) {
+    public void transformada24CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = matriz[0].length-1; j>=0 ; j--) {
             if(j%2==0){
@@ -191,7 +191,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }    
 
-    public void transformada25(int dimen, int valInit) {
+    public void transformada25CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for (int j = 0; j < matriz[0].length; j++) {
             if(j%2==0){
@@ -209,7 +209,7 @@ public class examenfinal {
         imprimirMatrizCadena(matriz);
     }
 
-    public void transformada22(int dimen, int valInit) {
+    public void transformada22CWSY(int dimen, int valInit) {
         String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
         for  (int i = 0; i < matriz.length; i++) {
             if(i%2==0) {
@@ -226,66 +226,24 @@ public class examenfinal {
         }
         imprimirMatrizCadena(matriz);
     }
-
-
-    public void transformada26(int dimen, int valInit) {
-        String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
-        for  (int i = 0; i < matriz.length; i++) {
-            if(i%2==0) {
-                for (int j =  matriz.length-1; j >=0; j--) {
-                    matriz[i][j]=""+valInit;
-                    valInit++;
-                }
-            }else{
-                for (int j = 0; j < matriz[0].length; j++) {
-                    matriz[i][j]=""+valInit;
-                    valInit++;
-                }
-            }
-        }
-        imprimirMatrizCadena(matriz);
-    }
-
-    public void transformada27(int dimen, int valInit) {
-        String[][] matriz=new String[dimen][dimen];// i =filas, j=columnas
-        for (int j = matriz[0].length-1; j>=0 ; j--) {
-            if(j%2==0){
-                for (int i =  matriz.length-1; i >=0; i--) {
-                    matriz[j][i]=""+valInit;
-                    valInit++;
-                }                
-            }else{
-                for (int i = 0; i < matriz.length; i++) {
-                    matriz[j][i]=""+valInit;
-                    valInit++;
-                }
-            }
-        }
-        imprimirMatrizCadena(matriz);
-    }    
 
     public static void main(String[] args) {
         examenfinal tObj=new examenfinal();
-        //tObj.transformada1(5, 0);
-        //tObj.transformada2(5,0);
+        //tObj.transformada1CWSY(5, 0);
+        //tObj.transformada2CWSY(5,0);
         System.out.println("");
-        //tObj.transformada05(5, 0);
-        //tObj.transformada13(5, 0);
-        //tObj.transformada21(5, 0);
-        //tObj.transformada24(5, 0);
-
-
-        //tObj.transformada16(5, 0);
-        //tObj.transformada14(5, 0);
-        //tObj.transformada06(5, 0);
-        //tObj.transformada18(5, 0);
-        //tObj.transformada07(5, 0);
-        //tObj.transformada17(5, 0);
-        //tObj.transformada12(5, 0);
-        //tObj.transformada25(5, 0);
-        //tObj.transformada22(5, 0);
-        //tObj.transformada26(5, 0);
-        //tObj.transformada27(5, 0);
-    
+        tObj.transformada05(5, 0);
+        //tObj.transformada06CWSY(5, 0);
+        //tObj.transformada07CWSY(5, 0);
+        //tObj.transformada12CWSY(5, 0);
+        //tObj.transformada13CWSY(5, 0);
+        //tObj.transformada14CWSY(5, 0);
+        //tObj.transformada16CWSY(5, 0);
+        //tObj.transformada17CWSY(5, 0);
+        //tObj.transformada18CWSY(5, 0);
+        //tObj.transformada21CWSY(5, 0);
+        //tObj.transformada22CWSY(5, 0);
+        //tObj.transformada24CWSY(5, 0);
+        //tObj.transformada25CWSY(5, 0);     
     }
 }
